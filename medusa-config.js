@@ -39,6 +39,7 @@ const plugins = [
   {
     resolve: `@medusajs/file-local`,
     options: {
+      backend_url: 'https://backend-production-eb32.up.railway.app',
       upload_dir: "uploads",
     },
   },
